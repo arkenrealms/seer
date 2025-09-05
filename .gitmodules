@@ -1,0 +1,8 @@
+[submodule "packages/protocol"]
+	path = packages/protocol
+	url = https://github.com/arkenrealms/seer-protocol.git
+	branch = main
+[submodule "packages/node"]
+	path = packages/node
+	url = https://github.com/arkenrealms/seer-node.git
+	branch = main
