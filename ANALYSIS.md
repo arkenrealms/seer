@@ -11,6 +11,12 @@
 - files: .editorconfig, .eslintrc, .git, .gitignore, .gitmodules, .prettierrc, LICENSE, NOTES.md, README.md
 - dirs: packages
 
+## This run update
+- Initialized nested submodules (`packages/node`, `packages/protocol`).
+- Completed deepest-first protocol chunk in `packages/protocol/src/modules/oasis`.
+- Added concise README/ANALYSIS docs in touched protocol folders and rolled findings upward.
+
 ## Next actions
-- Continue chunked analysis into nested submodules/folders.
+- Continue rotation inside Seer with `packages/protocol/src/modules/isles` (leaf-first), then `infinite`, `evolution`.
+- Start equivalent leaf-first analysis pass in `packages/node` submodule.
 - Add/update concise README.md coverage and path-header normalization while touching files.

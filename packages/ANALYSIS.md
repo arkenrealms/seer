@@ -8,12 +8,17 @@
 
 ## Key files
 - `README.md`
-- child paths: `node/`, `protocol/` (gitlink submodules; content not initialized in this workspace)
+- child submodules: `node/`, `protocol/`
+
+## Current status
+- Submodules initialized in this run.
+- First deepest-first analysis chunk completed in `protocol/src/modules/oasis`, summarized upward into `protocol/src` and `protocol` docs.
 
 ## Risks
-- Deep analysis is blocked until nested submodules are initialized/synced.
-- Protocol/interface drift inside nested packages may go undetected in this checkout state.
+- `node/` submodule has not yet received the same leaf-first analysis pass.
+- Protocol/interface drift risk remains in unreviewed module folders (`isles`, `infinite`, `evolution`).
 
 ## Next test/protocol checks
-- Run `git submodule update --init --recursive` from `arken/packages/seer`.
-- For each child package: run lint/typecheck/tests; verify protocol schema compatibility and transport/error-path coverage.
+- Continue deepest-first protocol review in `protocol/src/modules/isles`.
+- Mirror the same doc + analysis pass in `node/` submodule folders.
+- Run package tests/typecheck once targeted protocol changes are introduced.
