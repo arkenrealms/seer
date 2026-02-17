@@ -15,7 +15,7 @@
 - Initialized nested submodules (`packages/node`, `packages/protocol`).
 - Completed deepest-first protocol chunks in `packages/protocol/src/modules/oasis`, `packages/protocol/src/modules/isles`, `packages/protocol/src/modules/infinite`, and `packages/protocol/src/modules/evolution`.
 - Added concise README/ANALYSIS docs in touched protocol folders and rolled findings upward.
-- Started `packages/node` coverage with a first leaf-first pass over `packages/node/src` plus package-level analysis docs.
+- Extended `packages/node` coverage with a deeper leaf-first pass over `packages/node/src/data` (legacy payment-request artifact) and rolled findings into node package analysis docs.
 
 ## Next actions
 - Continue rotation inside Seer with protocol hardening/test planning after all module leaf passes.

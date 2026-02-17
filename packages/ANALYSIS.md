@@ -13,7 +13,7 @@
 ## Current status
 - Submodules initialized in this run.
 - Deepest-first protocol analysis chunks completed in `protocol/src/modules/oasis`, `protocol/src/modules/isles`, and `protocol/src/modules/infinite`, summarized upward into `protocol/src` and `protocol` docs.
-- Initial leaf-first source analysis completed for `node/src` with new `node/{ANALYSIS.md,src/README.md,src/ANALYSIS.md}` coverage.
+- Initial leaf-first source analysis completed for `node/src`, extended with `node/src/data` legacy-payment artifact docs (`node/src/data/{README.md,ANALYSIS.md}`).
 
 ## Risks
 - Protocol/interface drift risk remains high due to permissive contracts in several reviewed modules (including `evolution`).
