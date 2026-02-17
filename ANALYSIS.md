@@ -20,6 +20,7 @@
 - Added `packages/node/.rush` and `.rush/temp` generated-lock metadata coverage with concise docs and determinism-risk notes.
 - Completed `packages/node` runtime-ops config pass (`Dockerfile`, `forever-config.json`, `package.json`, `tsconfig.json`, `.eslintrc`, `genesis.json`) and refreshed package-level docs.
 - Completed `packages/protocol` package-root config/tooling pass (`package.json`, `tsconfig.json`, eslint/prettier/editorconfig) and captured strictness/test-guard gaps.
+- Added guard-script mapping follow-up in protocol analysis to make package-local quality gates explicit (`typecheck`, `lint`, `test:protocol` proposals).
 - Added repo-root structure notes in `README.md` and reviewed `.gitmodules` pointer policy (both submodules pinned to `main`).
 
 ## Next actions

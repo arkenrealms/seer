@@ -18,6 +18,7 @@
 - Added generated metadata documentation pass for `node/.rush` and `node/.rush/temp` (`README.md`/`ANALYSIS.md` + lockfile ownership notes).
 - Completed non-`src` seer-node operational/config analysis for `Dockerfile`, `forever-config.json`, `package.json`, `tsconfig.json`, `.eslintrc`, and `genesis.json`.
 - Completed seer-protocol package-root config/tooling analysis (`package.json`, `tsconfig.json`, `.eslintrc`, `.prettierrc`, `.editorconfig`) and updated protocol risk notes.
+- Added guard-script mapping in `protocol/ANALYSIS.md` with concrete package-local quality-gate command proposals (`typecheck`, `lint`, `test:protocol`).
 
 ## Risks
 - Protocol/interface drift risk remains high due to permissive contracts in several reviewed modules (including `evolution`).
