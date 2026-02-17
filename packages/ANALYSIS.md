@@ -23,6 +23,7 @@
 - Protocol/interface drift risk remains high due to permissive contracts in several reviewed modules (including `evolution`).
 - Isles and Infinite modules currently show likely router/service wiring errors and weak schema boundaries.
 - Evolution module concentrates reward/payment logic in a large service surface with limited protocol test guardrails.
+- Submodules track `main` in `.gitmodules`; without explicit SHA review policy at update time, pointer bumps can silently pull broad runtime/protocol changes.
 
 ## Next test/protocol checks
 - Move from leaf analysis to protocol-hardening test plans in reviewed modules (`evolution`, `isles`, `infinite`, `oasis`).
