@@ -15,8 +15,9 @@
 - Initialized nested submodules (`packages/node`, `packages/protocol`).
 - Completed deepest-first protocol chunks in `packages/protocol/src/modules/oasis`, `packages/protocol/src/modules/isles`, `packages/protocol/src/modules/infinite`, and `packages/protocol/src/modules/evolution`.
 - Added concise README/ANALYSIS docs in touched protocol folders and rolled findings upward.
+- Started `packages/node` coverage with a first leaf-first pass over `packages/node/src` plus package-level analysis docs.
 
 ## Next actions
 - Continue rotation inside Seer with protocol hardening/test planning after all module leaf passes.
-- Start equivalent leaf-first analysis pass in `packages/node` submodule.
+- Deepen `packages/node` analysis beyond `src` (runtime config/process container layers).
 - Add/update concise README.md coverage and path-header normalization while touching files.
