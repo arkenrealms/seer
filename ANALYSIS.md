@@ -19,6 +19,7 @@
 - Extended `packages/node` coverage with a deeper leaf-first pass over `packages/node/src/data` (legacy payment-request artifact) and rolled findings into node package analysis docs.
 - Added `packages/node/.rush` and `.rush/temp` generated-lock metadata coverage with concise docs and determinism-risk notes.
 - Completed `packages/node` runtime-ops config pass (`Dockerfile`, `forever-config.json`, `package.json`, `tsconfig.json`, `genesis.json`) and refreshed package-level docs.
+- Completed `packages/protocol` package-root config/tooling pass (`package.json`, `tsconfig.json`, eslint/prettier/editorconfig) and captured strictness/test-guard gaps.
 
 ## Next actions
 - Continue rotation inside Seer with protocol hardening/test planning after all module leaf passes.
