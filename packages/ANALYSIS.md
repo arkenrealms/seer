@@ -25,7 +25,7 @@
 - Protocol/interface drift risk remains high due to permissive contracts in several reviewed modules (including `evolution`).
 - Isles and Infinite modules currently show likely router/service wiring errors and weak schema boundaries.
 - Evolution module concentrates reward/payment logic in a large service surface with limited protocol test guardrails.
-- seer-node maintenance helpers in `packages/node/src/tests.ts` include recursive-call defects (`migrateTrades`, `saveToken`) that can trigger infinite recursion if used operationally.
+- seer-node maintenance helpers in `packages/node/src/tests.ts` were hardened with fail-fast delegation guards, but still lack automated smoke coverage.
 - Submodules track `main` in `.gitmodules`; without explicit SHA review policy at update time, pointer bumps can silently pull broad runtime/protocol changes.
 
 ## Next test/protocol checks
