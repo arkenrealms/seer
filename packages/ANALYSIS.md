@@ -16,10 +16,11 @@
 
 ## Risks
 - `node/` submodule has not yet received the same leaf-first analysis pass.
-- Protocol/interface drift risk remains in unreviewed module folder (`evolution`).
+- Protocol/interface drift risk remains high due to permissive contracts in several reviewed modules (including `evolution`).
 - Isles and Infinite modules currently show likely router/service wiring errors and weak schema boundaries.
+- Evolution module concentrates reward/payment logic in a large service surface with limited protocol test guardrails.
 
 ## Next test/protocol checks
-- Continue deepest-first protocol review in `protocol/src/modules/evolution`.
+- Move from leaf analysis to protocol-hardening test plans in reviewed modules (`evolution`, `isles`, `infinite`, `oasis`).
 - Mirror the same doc + analysis pass in `node/` submodule folders.
 - Run package tests/typecheck once targeted protocol changes are introduced.
