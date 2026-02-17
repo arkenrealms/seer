@@ -12,7 +12,8 @@
 
 ## Current status
 - Submodules initialized in this run.
-- Deepest-first protocol analysis chunks completed in `protocol/src/modules/oasis`, `protocol/src/modules/isles`, and `protocol/src/modules/infinite`, summarized upward into `protocol/src` and `protocol` docs.
+- Deepest-first protocol analysis chunks completed in `protocol/src/modules/oasis`, `protocol/src/modules/isles`, `protocol/src/modules/infinite`, and `protocol/src/modules/evolution`, summarized upward into `protocol/src` and `protocol` docs.
+- Follow-up source analysis completed for protocol root files (`protocol/src/index.ts`, `protocol/src/router.ts`, `protocol/src/types.ts`) to merge leaf findings upward.
 - Initial leaf-first source analysis completed for `node/src`, extended with `node/src/data` legacy-payment artifact docs (`node/src/data/{README.md,ANALYSIS.md}`).
 
 ## Risks

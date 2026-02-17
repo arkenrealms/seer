@@ -15,6 +15,7 @@
 - Initialized nested submodules (`packages/node`, `packages/protocol`).
 - Completed deepest-first protocol chunks in `packages/protocol/src/modules/oasis`, `packages/protocol/src/modules/isles`, `packages/protocol/src/modules/infinite`, and `packages/protocol/src/modules/evolution`.
 - Added concise README/ANALYSIS docs in touched protocol folders and rolled findings upward.
+- Completed source-level pass for `packages/protocol/src/{index.ts,router.ts,types.ts}` to merge leaf findings into root protocol boundaries.
 - Extended `packages/node` coverage with a deeper leaf-first pass over `packages/node/src/data` (legacy payment-request artifact) and rolled findings into node package analysis docs.
 
 ## Next actions
