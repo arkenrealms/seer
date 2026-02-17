@@ -12,13 +12,14 @@
 
 ## Current status
 - Submodules initialized in this run.
-- First deepest-first analysis chunk completed in `protocol/src/modules/oasis`, summarized upward into `protocol/src` and `protocol` docs.
+- Deepest-first protocol analysis chunks completed in `protocol/src/modules/oasis` and `protocol/src/modules/isles`, summarized upward into `protocol/src` and `protocol` docs.
 
 ## Risks
 - `node/` submodule has not yet received the same leaf-first analysis pass.
-- Protocol/interface drift risk remains in unreviewed module folders (`isles`, `infinite`, `evolution`).
+- Protocol/interface drift risk remains in unreviewed module folders (`infinite`, `evolution`).
+- Isles module currently shows likely router/service wiring errors and weak schema boundaries.
 
 ## Next test/protocol checks
-- Continue deepest-first protocol review in `protocol/src/modules/isles`.
+- Continue deepest-first protocol review in `protocol/src/modules/infinite`.
 - Mirror the same doc + analysis pass in `node/` submodule folders.
 - Run package tests/typecheck once targeted protocol changes are introduced.

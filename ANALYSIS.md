@@ -13,10 +13,10 @@
 
 ## This run update
 - Initialized nested submodules (`packages/node`, `packages/protocol`).
-- Completed deepest-first protocol chunk in `packages/protocol/src/modules/oasis`.
+- Completed deepest-first protocol chunks in `packages/protocol/src/modules/oasis` and `packages/protocol/src/modules/isles`.
 - Added concise README/ANALYSIS docs in touched protocol folders and rolled findings upward.
 
 ## Next actions
-- Continue rotation inside Seer with `packages/protocol/src/modules/isles` (leaf-first), then `infinite`, `evolution`.
+- Continue rotation inside Seer with `packages/protocol/src/modules/infinite` (leaf-first), then `evolution`.
 - Start equivalent leaf-first analysis pass in `packages/node` submodule.
 - Add/update concise README.md coverage and path-header normalization while touching files.
