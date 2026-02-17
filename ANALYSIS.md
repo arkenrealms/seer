@@ -23,6 +23,7 @@
 - Added guard-script mapping follow-up in protocol analysis to make package-local quality gates explicit (`typecheck`, `lint`, `test:protocol` proposals).
 - Added repo-root structure notes in `README.md` and reviewed `.gitmodules` pointer policy (both submodules pinned to `main`).
 - Added root governance snapshot for wrapper repo dotfiles (`.editorconfig`, `.eslintrc`, `.prettierrc`, `.gitignore`, `LICENSE`) and documented the resulting guardrail profile.
+- Added fail-fast guard hardening in `packages/node/src/tests.ts` for maintenance helpers (`updateUserAchievements`, `monitorMarketEvents`) and updated seer-node rollup risk notes.
 
 ## Root guardrail profile (wrapper repo)
 - Formatting baseline is consistent (`.editorconfig` + Prettier), but lint config remains intentionally permissive (many temporary-disable rules), which lowers early static-signal quality.
