@@ -17,6 +17,7 @@
 - Follow-up source analysis completed for protocol root files (`protocol/src/index.ts`, `protocol/src/router.ts`, `protocol/src/types.ts`) to merge leaf findings upward.
 - Initial leaf-first source analysis completed for `node/src`, extended with `node/src/data` legacy-payment artifact docs (`node/src/data/{README.md,ANALYSIS.md}`).
 - Added generated metadata documentation pass for `node/.rush` and `node/.rush/temp` (`README.md`/`ANALYSIS.md` + lockfile ownership notes).
+- Revalidated `protocol/.rush/temp/shrinkwrap-deps.json` via direct source read and refreshed protocol lock-metadata ownership notes.
 - Completed non-`src` seer-node operational/config analysis for `Dockerfile`, `forever-config.json`, `package.json`, `tsconfig.json`, `.eslintrc`, and `genesis.json`.
 - Completed seer-protocol package-root config/tooling analysis (`package.json`, `tsconfig.json`, `.eslintrc`, `.prettierrc`, `.editorconfig`) and updated protocol risk notes.
 - Added guard-script mapping in `protocol/ANALYSIS.md` with concrete package-local quality-gate command proposals (`typecheck`, `lint`, `test:protocol`).
