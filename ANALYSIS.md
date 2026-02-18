@@ -36,3 +36,9 @@
 - Continue rotation inside Seer with protocol hardening/test planning after all module leaf passes.
 - Continue `packages/node` follow-up by turning runtime config findings into concrete hardening tasks/tests.
 - Add/update concise README.md coverage and path-header normalization while touching files.
+
+## 2026-02-17 20:12 PST — seer-protocol resolver hardening rollup
+- Rolled `packages/protocol` to include own-property method-resolution hardening in Infinite resolver.
+- Added inherited-prototype handler regression coverage in protocol package tests.
+- Verified package-local gate: `npm test` in `packages/seer/packages/protocol` (pass: 4/4).
+- Jest migration remains queued; direct-package install/bootstrap is currently blocked in cron runtime by unresolved `workspace:*` dependency bootstrap path.
