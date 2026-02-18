@@ -42,3 +42,5 @@
 - Added inherited-prototype handler regression coverage in protocol package tests.
 - Verified package-local gate: `npm test` in `packages/seer/packages/protocol` (pass: 4/4).
 - Jest migration remains queued; direct-package install/bootstrap is currently blocked in cron runtime by unresolved `workspace:*` dependency bootstrap path.
+
+- 2026-02-17: Rolled seer-node test-suite migration from CommonJS (*.cjs) to TypeScript (*.test.ts) for helper coverage consistency.
